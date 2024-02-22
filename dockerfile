@@ -5,6 +5,7 @@ EXPOSE 8081
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG BUILD_CONFIGURATION=Release
+RUN curl -fsSL https://get.docker.com | sh
 WORKDIR /src
 COPY ["Rideshare.Webapi/Rideshare.Webapi.csproj", "Rideshare.Webapi/"]
 COPY ["Rideshare.Application/Rideshare.Application.csproj", "Rideshare.Application/"]
