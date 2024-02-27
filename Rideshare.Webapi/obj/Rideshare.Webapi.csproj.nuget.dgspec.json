@@ -1,0 +1,363 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Webapi/Rideshare.Webapi.csproj": {}
+  },
+  "projects": {
+    "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Application/Rideshare.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Application/Rideshare.Application.csproj",
+        "projectName": "Rideshare.Application",
+        "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Application/Rideshare.Application.csproj",
+        "packagesPath": "/Users/henon/.nuget/packages/",
+        "outputPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/henon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/Users/henon/Documents/Projects/Microservices": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Domain/Rideshare.Domain.csproj": {
+                "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Domain/Rideshare.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "newtonsoft.json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Domain/Rideshare.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Domain/Rideshare.Domain.csproj",
+        "projectName": "Rideshare.Domain",
+        "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Domain/Rideshare.Domain.csproj",
+        "packagesPath": "/Users/henon/.nuget/packages/",
+        "outputPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/henon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/Users/henon/Documents/Projects/Microservices": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AspNetCore.Identity.Mongo": {
+              "target": "Package",
+              "version": "[8.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Infrastructure/Rideshare.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Infrastructure/Rideshare.Infrastructure.csproj",
+        "projectName": "Rideshare.Infrastructure",
+        "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Infrastructure/Rideshare.Infrastructure.csproj",
+        "packagesPath": "/Users/henon/.nuget/packages/",
+        "outputPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/henon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/Users/henon/Documents/Projects/Microservices": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Domain/Rideshare.Domain.csproj": {
+                "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Domain/Rideshare.Domain.csproj"
+              },
+              "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Persistence/Rideshare.Persistence.csproj": {
+                "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Persistence/Rideshare.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Persistence/Rideshare.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Persistence/Rideshare.Persistence.csproj",
+        "projectName": "Rideshare.Persistence",
+        "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Persistence/Rideshare.Persistence.csproj",
+        "packagesPath": "/Users/henon/.nuget/packages/",
+        "outputPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/henon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/Users/henon/Documents/Projects/Microservices": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Application/Rideshare.Application.csproj": {
+                "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Application/Rideshare.Application.csproj"
+              },
+              "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Domain/Rideshare.Domain.csproj": {
+                "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Domain/Rideshare.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "mongodb.driver": {
+              "target": "Package",
+              "version": "[2.23.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Webapi/Rideshare.Webapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Webapi/Rideshare.Webapi.csproj",
+        "projectName": "Rideshare.Webapi",
+        "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Webapi/Rideshare.Webapi.csproj",
+        "packagesPath": "/Users/henon/.nuget/packages/",
+        "outputPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Webapi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/henon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/Users/henon/Documents/Projects/Microservices": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Application/Rideshare.Application.csproj": {
+                "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Application/Rideshare.Application.csproj"
+              },
+              "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Infrastructure/Rideshare.Infrastructure.csproj": {
+                "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Infrastructure/Rideshare.Infrastructure.csproj"
+              },
+              "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Persistence/Rideshare.Persistence.csproj": {
+                "projectPath": "/Users/henon/Documents/Projects/RideShare/Rideshare_backend/Rideshare.Persistence/Rideshare.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
