@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/Rideshare.Webapi.props" />
-</Project>
